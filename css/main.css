@@ -1,0 +1,113 @@
+/*****
+css/main.css
+*****/
+
+@import url=('https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet');
+@import url=('https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet');
+html {
+    background-color: gainsboro;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+h1,
+ul,
+p {
+    text-align: center;
+}
+
+h1 {
+    padding: 3rem;
+    font-size: 8rem;
+    font-family: 'Spectral SC', serif;
+    color: firebrick;
+    text-shadow: 2px 1px 20px #547;
+}
+
+.num_list {
+    list-style: none;
+}
+
+button {
+    padding: 1rem;
+    width: 300px;
+    font-size: 2rem;
+    color: darkred;
+    background-color: bisque;
+}
+
+p {
+    font-size: 3rem;
+    font-family: 'Vollkorn SC', serif;
+}
+
+input {
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media screen and (min-width:0px) {
+    h1 {
+        font-size: 45px;
+    }
+    body {
+        font-size: 40px;
+    }
+    input {
+        width: 55px;
+        height: 30px;
+        font-size: 30px;
+    }
+    button {
+        padding: 1rem;
+        width: 300px;
+        height: 50px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    h1 {
+        font-size: 120px;
+    }
+    body {
+        font-size: 40px;
+    }
+    input {
+        width: 55px;
+        height: 30px;
+        font-size: 30px;
+    }
+    button {
+        padding: 1rem;
+        width: 300px;
+        height: 50px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 120px;
+    }
+    body {
+        font-size: 40px;
+    }
+    input {
+        width: 70px;
+        height: 40px;
+        font-size: 40px;
+    }
+    button {
+        padding: 1rem;
+        width: 350px;
+        height: 50px;
+        font-size: 16px;
+    }
+}
