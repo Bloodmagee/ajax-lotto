@@ -27,7 +27,7 @@ function nav(ev){
 }
 
 function makeURL(){
-    let url = "http://localhost/mad9014-lotto/nums.php?";
+    let url = "http://localhost/mad9014-lotto/nums.php";
     //  ?digits=4&max=345
     //get the digits and max from the form
     let digits = document.getElementById('digits');
@@ -72,7 +72,7 @@ function getNumbers(ev){
             body: fd
         };
 
-        fetch("localhost")
+        fetch(url, info)
         .then(response => {
             //console.dir( response );
             return response.json();
