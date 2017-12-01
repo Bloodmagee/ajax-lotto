@@ -72,7 +72,7 @@ function getNumbers(ev){
             body: fd
         };
 
-        fetch(url, info)
+        fetch("localhost")
         .then(response => {
             //console.dir( response );
             return response.json();
