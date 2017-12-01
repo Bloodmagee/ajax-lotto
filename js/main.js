@@ -40,7 +40,7 @@ function makeURL(){
 function getNumbers(ev){
     ev.preventDefault();
     //let url = makeURL();
-    let url = "http://localhost/mad9014-lotto/nums.php";
+    let url = "https://localhost/mad9014-lotto/nums.php";
     
     let d = document.getElementById('digits');
     let m = document.getElementById('max');
